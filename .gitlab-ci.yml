@@ -1,0 +1,8 @@
+include:
+  - project: 'affinidi/foundational/foundational-pipeline'
+    ref: 'v2.146.3' # Please do not change 'ref' manually. It is updated by automation.
+    file: '/stack/frontend.yml'
+
+variables:
+  # Options: https://gitlab.com/affinidi/foundational/foundational-pipeline/-/blob/main/variables.yml#L7
+  NODE_BUILD_VERSION: ${NODE_14}  # Options: https://gitlab.com/affinidi/foundational/foundational-pipeline/-/blob/main/variables.yml#L7
